@@ -1,0 +1,15 @@
+name: stage07_hnsw_rescored
+stage: "07"
+track: Q
+dense:
+  index: hnsw
+  metric: ip
+  vectors_path: data/msmarco/subset_1m/embeddings/passages.f32.npy
+  index_path: data/indexes/stage01_hnsw/hnsw.bin
+  hnsw: {ef_search: 32, space: ip}
+  rescoring: true
+  rescored_candidates: 100
+sparse: null
+candidate_k: 100
+memory_limit_gb: 24
+slo_p99_ms: 100

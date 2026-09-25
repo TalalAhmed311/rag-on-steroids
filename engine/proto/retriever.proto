@@ -1,0 +1,25 @@
+syntax = "proto3";
+package context_engine;
+
+// Optional gRPC surface (HTTP JSON server is the Stage 11 default).
+service Retriever {
+  rpc Search (SearchRequest) returns (SearchResponse);
+}
+
+message SearchRequest {
+  string id = 1;
+  string text = 2;
+  repeated float vector = 3;
+  int32 qidx = 4;
+  int32 k = 5;
+}
+
+message Hit {
+  int64 doc_id = 1;
+  float score = 2;
+  string source = 3;
+}
+
+message SearchResponse {
+  repeated Hit hits = 1;
+}

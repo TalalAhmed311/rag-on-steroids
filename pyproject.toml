@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context-engine"
+version = "0.0.1"
+description = "Resource-constrained hybrid retrieval engine for RAG"
+readme = "context-engine.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.24,<3",
+  "pyarrow>=14",
+  "pyyaml>=6",
+  "psutil>=5.9",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "huggingface_hub>=0.23"]
+
+[tool.setuptools.packages.find]
+include = ["engine*", "bench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

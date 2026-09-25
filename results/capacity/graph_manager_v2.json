@@ -1,0 +1,188 @@
+{
+  "best": {
+    "concurrency": 8,
+    "duration_s": 15.0,
+    "completed": 2489,
+    "errors": 0,
+    "error_rate": 0.0,
+    "achieved_qps": 165.57774464587627,
+    "latency_ms": {
+      "p50": 47.4643829948036,
+      "p95": 62.327619202551425,
+      "p99": 69.18832923576701,
+      "mean": 48.19171753690811
+    },
+    "client_rss_gb": 0.03511810302734375,
+    "server": {
+      "requests": 7399,
+      "errors": 0,
+      "qps": 153.46720378971378,
+      "latency_ms": {
+        "p50": 33.37862700573169,
+        "p95": 52.97242869710317,
+        "p99": 83.33608583285141,
+        "mean": 35.449390727388305
+      },
+      "rss_gb": 2.3942832946777344,
+      "cpu_pct": 0.0,
+      "uptime_s": 48.212255239486694,
+      "engine": {
+        "dense": {
+          "index": "partitioned",
+          "partitions_probed": 16,
+          "partition_loads": 0,
+          "n_partitions": 256,
+          "nprobe": 16,
+          "graph_manager": {
+            "cache_hit_rate": 0.9978544397891607,
+            "partition_loads": 254,
+            "evictions": 0,
+            "cached_partitions": 254,
+            "used_bytes": 2568462848,
+            "budget_bytes": 8589934592
+          }
+        }
+      }
+    }
+  },
+  "history": [
+    {
+      "concurrency": 4,
+      "duration_s": 15.0,
+      "completed": 2525,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 168.16061167896103,
+      "latency_ms": {
+        "p50": 22.888031002366915,
+        "p95": 31.790864601498463,
+        "p99": 34.7546659177169,
+        "mean": 23.706237674819878
+      },
+      "client_rss_gb": 0.034881591796875,
+      "server": {
+        "requests": 4410,
+        "errors": 0,
+        "qps": 146.32048236946258,
+        "latency_ms": {
+          "p50": 21.741255011875182,
+          "p95": 52.10815164973611,
+          "p99": 114.66257651365582,
+          "mean": 31.951517505546036
+        },
+        "rss_gb": 2.394092559814453,
+        "cpu_pct": 0.0,
+        "uptime_s": 30.139321088790894,
+        "engine": {
+          "dense": {
+            "index": "partitioned",
+            "partitions_probed": 16,
+            "partition_loads": 0,
+            "n_partitions": 256,
+            "nprobe": 16,
+            "graph_manager": {
+              "cache_hit_rate": 0.9964002267573696,
+              "partition_loads": 254,
+              "evictions": 0,
+              "cached_partitions": 254,
+              "used_bytes": 2568462848,
+              "budget_bytes": 8589934592
+            }
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 8,
+      "duration_s": 15.0,
+      "completed": 2489,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 165.57774464587627,
+      "latency_ms": {
+        "p50": 47.4643829948036,
+        "p95": 62.327619202551425,
+        "p99": 69.18832923576701,
+        "mean": 48.19171753690811
+      },
+      "client_rss_gb": 0.03511810302734375,
+      "server": {
+        "requests": 7399,
+        "errors": 0,
+        "qps": 153.46720378971378,
+        "latency_ms": {
+          "p50": 33.37862700573169,
+          "p95": 52.97242869710317,
+          "p99": 83.33608583285141,
+          "mean": 35.449390727388305
+        },
+        "rss_gb": 2.3942832946777344,
+        "cpu_pct": 0.0,
+        "uptime_s": 48.212255239486694,
+        "engine": {
+          "dense": {
+            "index": "partitioned",
+            "partitions_probed": 16,
+            "partition_loads": 0,
+            "n_partitions": 256,
+            "nprobe": 16,
+            "graph_manager": {
+              "cache_hit_rate": 0.9978544397891607,
+              "partition_loads": 254,
+              "evictions": 0,
+              "cached_partitions": 254,
+              "used_bytes": 2568462848,
+              "budget_bytes": 8589934592
+            }
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 16,
+      "duration_s": 15.0,
+      "completed": 2468,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 154.612039284068,
+      "latency_ms": {
+        "p50": 76.10975650459295,
+        "p95": 104.04023434675764,
+        "p99": 1122.9762106640555,
+        "mean": 98.01010239674049
+      },
+      "client_rss_gb": 0.035495758056640625,
+      "server": {
+        "requests": 10368,
+        "errors": 0,
+        "qps": 154.24851652849762,
+        "latency_ms": {
+          "p50": 38.471714506158605,
+          "p95": 65.23733809954136,
+          "p99": 83.71420304407366,
+          "mean": 40.306356465576016
+        },
+        "rss_gb": 2.396209716796875,
+        "cpu_pct": 0.0,
+        "uptime_s": 67.21620559692383,
+        "engine": {
+          "dense": {
+            "index": "partitioned",
+            "partitions_probed": 16,
+            "partition_loads": 0,
+            "n_partitions": 256,
+            "nprobe": 16,
+            "graph_manager": {
+              "cache_hit_rate": 0.9984688464506173,
+              "partition_loads": 254,
+              "evictions": 0,
+              "cached_partitions": 254,
+              "used_bytes": 2568462848,
+              "budget_bytes": 8589934592
+            }
+          }
+        }
+      }
+    }
+  ]
+}

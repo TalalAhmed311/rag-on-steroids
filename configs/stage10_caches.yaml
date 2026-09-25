@@ -1,0 +1,19 @@
+name: stage10_caches
+stage: "10"
+track: Q
+dense:
+  index: hnsw
+  metric: ip
+  vectors_path: data/msmarco/subset_1m/embeddings/passages.f32.npy
+  index_path: data/indexes/stage01_hnsw/hnsw.bin
+  hnsw: {ef_search: 64, space: ip}
+sparse:
+  corpus_path: data/msmarco/subset_1m/corpus.parquet
+fusion: {type: rrf, k: 60}
+cache:
+  exact: true
+  exact_size: 10000
+  semantic: true
+  semantic_threshold: 0.95
+candidate_k: 100
+memory_limit_gb: 24

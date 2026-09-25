@@ -1,0 +1,24 @@
+{
+  "best": null,
+  "history": [
+    {
+      "concurrency": 8,
+      "duration_s": 15.0,
+      "completed": 45,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 2.7813198447796204,
+      "latency_ms": {
+        "p50": 2624.759978003567,
+        "p95": 5657.293383803334,
+        "p99": 6624.6567400731155,
+        "mean": 2781.5107828433006
+      },
+      "client_rss_gb": 0.034770965576171875,
+      "server": {
+        "collection": "msmarco_1m",
+        "points": 1000000
+      }
+    }
+  ]
+}

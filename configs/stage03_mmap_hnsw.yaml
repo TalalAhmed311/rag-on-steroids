@@ -1,0 +1,12 @@
+name: stage03_mmap_hnsw
+stage: "03"
+track: Q
+dense:
+  index: hnsw
+  metric: ip
+  vectors_path: data/msmarco/subset_1m/embeddings/passages.f32.npy
+  index_path: data/indexes/stage01_hnsw/hnsw.bin
+  hnsw: {ef_search: 64, space: ip}
+  storage: {mode: mmap, path: data/indexes/stage03_mmap/vectors.f32.mmap}
+sparse: null
+memory_limit_gb: 24

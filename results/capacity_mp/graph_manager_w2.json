@@ -1,0 +1,156 @@
+{
+  "best": {
+    "concurrency": 16,
+    "duration_s": 12.0,
+    "completed": 3606,
+    "errors": 0,
+    "error_rate": 0.0,
+    "achieved_qps": 290.0520595021847,
+    "latency_ms": {
+      "p50": 48.724849497375544,
+      "p95": 91.51822625426576,
+      "p99": 108.07830020567053,
+      "mean": 53.43191004930785
+    },
+    "client_rss_gb": 0.03551483154296875,
+    "server": {
+      "worker": 0,
+      "pid": 1136269,
+      "rss_gb": 2.39117431640625,
+      "cpu_pct": 0.0,
+      "engine": {
+        "dense": {
+          "index": "partitioned",
+          "partitions_probed": 16,
+          "partition_loads": 0,
+          "n_partitions": 256,
+          "nprobe": 16,
+          "graph_manager": {
+            "cache_hit_rate": 0.9969433256616801,
+            "partition_loads": 255,
+            "evictions": 0,
+            "cached_partitions": 255,
+            "used_bytes": 2570416896,
+            "budget_bytes": 8589934592
+          }
+        }
+      }
+    }
+  },
+  "history": [
+    {
+      "concurrency": 8,
+      "duration_s": 12.0,
+      "completed": 3437,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 286.0561442880478,
+      "latency_ms": {
+        "p50": 27.34272601082921,
+        "p95": 46.46234859537798,
+        "p99": 53.48395295906812,
+        "mean": 27.878695731383036
+      },
+      "client_rss_gb": 0.035060882568359375,
+      "server": {
+        "worker": 1,
+        "pid": 1136277,
+        "rss_gb": 2.391498565673828,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "partitioned",
+            "partitions_probed": 16,
+            "partition_loads": 0,
+            "n_partitions": 256,
+            "nprobe": 16,
+            "graph_manager": {
+              "cache_hit_rate": 0.994800163132137,
+              "partition_loads": 255,
+              "evictions": 0,
+              "cached_partitions": 255,
+              "used_bytes": 2570416896,
+              "budget_bytes": 8589934592
+            }
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 16,
+      "duration_s": 12.0,
+      "completed": 3606,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 290.0520595021847,
+      "latency_ms": {
+        "p50": 48.724849497375544,
+        "p95": 91.51822625426576,
+        "p99": 108.07830020567053,
+        "mean": 53.43191004930785
+      },
+      "client_rss_gb": 0.03551483154296875,
+      "server": {
+        "worker": 0,
+        "pid": 1136269,
+        "rss_gb": 2.39117431640625,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "partitioned",
+            "partitions_probed": 16,
+            "partition_loads": 0,
+            "n_partitions": 256,
+            "nprobe": 16,
+            "graph_manager": {
+              "cache_hit_rate": 0.9969433256616801,
+              "partition_loads": 255,
+              "evictions": 0,
+              "cached_partitions": 255,
+              "used_bytes": 2570416896,
+              "budget_bytes": 8589934592
+            }
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 32,
+      "duration_s": 12.0,
+      "completed": 3619,
+      "errors": 1,
+      "error_rate": 0.00027624309392265195,
+      "achieved_qps": 284.0718029040844,
+      "latency_ms": {
+        "p50": 64.39373950706795,
+        "p95": 118.15374689540467,
+        "p99": 1156.2884350809327,
+        "mean": 107.5937066967054
+      },
+      "client_rss_gb": 0.036319732666015625,
+      "server": {
+        "worker": 0,
+        "pid": 1136269,
+        "rss_gb": 2.39141845703125,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "partitioned",
+            "partitions_probed": 16,
+            "partition_loads": 0,
+            "n_partitions": 256,
+            "nprobe": 16,
+            "graph_manager": {
+              "cache_hit_rate": 0.9978416170097508,
+              "partition_loads": 255,
+              "evictions": 0,
+              "cached_partitions": 255,
+              "used_bytes": 2570416896,
+              "budget_bytes": 8589934592
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "best": {
+    "concurrency": 8,
+    "duration_s": 12.0,
+    "completed": 2942,
+    "errors": 0,
+    "error_rate": 0.0,
+    "achieved_qps": 230.9327163271112,
+    "latency_ms": {
+      "p50": 20.62183500675019,
+      "p95": 64.13284004156593,
+      "p99": 90.55421693876283,
+      "mean": 32.92797562406222
+    },
+    "client_rss_gb": 0.035190582275390625,
+    "server": {
+      "requests": 6466,
+      "errors": 0,
+      "qps": 188.04402999266944,
+      "latency_ms": {
+        "p50": 0.05208850052440539,
+        "p95": 2.2378385037882254,
+        "p99": 11.762656349310431,
+        "mean": 0.6150111907882734
+      },
+      "rss_gb": 1.7960586547851562,
+      "cpu_pct": 0.0,
+      "uptime_s": 34.38556385040283,
+      "engine": {
+        "dense": {
+          "index": "hnsw",
+          "n": 1000000,
+          "dim": 384,
+          "M": 16,
+          "ef_search": 64,
+          "ef_construction": 200
+        },
+        "result_cache_hit_rate": 0.8280235075781008,
+        "result_cache_entries": 1112,
+        "semantic_cache_hit_rate": 0.0,
+        "semantic_cache_entries": 1112,
+        "threshold": 0.98
+      }
+    }
+  },
+  "history": [
+    {
+      "concurrency": 4,
+      "duration_s": 12.0,
+      "completed": 2270,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 189.07822017638222,
+      "latency_ms": {
+        "p50": 19.43326699984027,
+        "p95": 47.973707353230566,
+        "p99": 60.48147077948669,
+        "mean": 21.02364822967662
+      },
+      "client_rss_gb": 0.034900665283203125,
+      "server": {
+        "requests": 2871,
+        "errors": 0,
+        "qps": 155.90906680244728,
+        "latency_ms": {
+          "p50": 0.05927500023972243,
+          "p95": 4.050244504469447,
+          "p99": 18.507761997170803,
+          "mean": 1.0346600585581442
+        },
+        "rss_gb": 1.7866630554199219,
+        "cpu_pct": 0.0,
+        "uptime_s": 18.41458010673523,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          },
+          "result_cache_hit_rate": 0.6802507836990596,
+          "result_cache_entries": 918,
+          "semantic_cache_hit_rate": 0.0,
+          "semantic_cache_entries": 918,
+          "threshold": 0.98
+        }
+      }
+    },
+    {
+      "concurrency": 8,
+      "duration_s": 12.0,
+      "completed": 2942,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 230.9327163271112,
+      "latency_ms": {
+        "p50": 20.62183500675019,
+        "p95": 64.13284004156593,
+        "p99": 90.55421693876283,
+        "mean": 32.92797562406222
+      },
+      "client_rss_gb": 0.035190582275390625,
+      "server": {
+        "requests": 6466,
+        "errors": 0,
+        "qps": 188.04402999266944,
+        "latency_ms": {
+          "p50": 0.05208850052440539,
+          "p95": 2.2378385037882254,
+          "p99": 11.762656349310431,
+          "mean": 0.6150111907882734
+        },
+        "rss_gb": 1.7960586547851562,
+        "cpu_pct": 0.0,
+        "uptime_s": 34.38556385040283,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          },
+          "result_cache_hit_rate": 0.8280235075781008,
+          "result_cache_entries": 1112,
+          "semantic_cache_hit_rate": 0.0,
+          "semantic_cache_entries": 1112,
+          "threshold": 0.98
+        }
+      }
+    },
+    {
+      "concurrency": 16,
+      "duration_s": 12.0,
+      "completed": 2719,
+      "errors": 1,
+      "error_rate": 0.0003676470588235294,
+      "achieved_qps": 208.61630841645317,
+      "latency_ms": {
+        "p50": 24.09613400232047,
+        "p95": 83.39339415251739,
+        "p99": 1111.0396148552536,
+        "mean": 72.43302123838743
+      },
+      "client_rss_gb": 0.035572052001953125,
+      "server": {
+        "requests": 10034,
+        "errors": 0,
+        "qps": 198.34328351266296,
+        "latency_ms": {
+          "p50": 0.048977504775393754,
+          "p95": 1.705125805165153,
+          "p99": 9.586118506122151,
+          "mean": 0.44164749917177715
+        },
+        "rss_gb": 1.7961006164550781,
+        "cpu_pct": 0.0,
+        "uptime_s": 50.58905863761902,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          },
+          "result_cache_hit_rate": 0.8891767988837951,
+          "result_cache_entries": 1112,
+          "semantic_cache_hit_rate": 0.0,
+          "semantic_cache_entries": 1112,
+          "threshold": 0.98
+        }
+      }
+    }
+  ]
+}

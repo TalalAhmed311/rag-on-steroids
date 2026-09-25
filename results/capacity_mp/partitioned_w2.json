@@ -1,0 +1,124 @@
+{
+  "best": {
+    "concurrency": 16,
+    "duration_s": 12.0,
+    "completed": 3698,
+    "errors": 0,
+    "error_rate": 0.0,
+    "achieved_qps": 305.3485549805362,
+    "latency_ms": {
+      "p50": 48.71520549204433,
+      "p95": 87.80581094761145,
+      "p99": 103.38077216365478,
+      "mean": 51.96021233177595
+    },
+    "client_rss_gb": 0.035549163818359375,
+    "server": {
+      "worker": 1,
+      "pid": 1094065,
+      "rss_gb": 2.3938446044921875,
+      "cpu_pct": 0.0,
+      "engine": {
+        "dense": {
+          "index": "partitioned",
+          "partitions_probed": 16,
+          "partition_loads": 0,
+          "n_partitions": 256,
+          "nprobe": 16
+        }
+      }
+    }
+  },
+  "history": [
+    {
+      "concurrency": 8,
+      "duration_s": 12.0,
+      "completed": 3615,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 300.73354156020685,
+      "latency_ms": {
+        "p50": 25.859818008029833,
+        "p95": 44.094734397367574,
+        "p99": 50.71638254390565,
+        "mean": 26.508573266383863
+      },
+      "client_rss_gb": 0.035175323486328125,
+      "server": {
+        "worker": 0,
+        "pid": 1094064,
+        "rss_gb": 2.3936119079589844,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "partitioned",
+            "partitions_probed": 16,
+            "partition_loads": 0,
+            "n_partitions": 256,
+            "nprobe": 16
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 16,
+      "duration_s": 12.0,
+      "completed": 3698,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 305.3485549805362,
+      "latency_ms": {
+        "p50": 48.71520549204433,
+        "p95": 87.80581094761145,
+        "p99": 103.38077216365478,
+        "mean": 51.96021233177595
+      },
+      "client_rss_gb": 0.035549163818359375,
+      "server": {
+        "worker": 1,
+        "pid": 1094065,
+        "rss_gb": 2.3938446044921875,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "partitioned",
+            "partitions_probed": 16,
+            "partition_loads": 0,
+            "n_partitions": 256,
+            "nprobe": 16
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 32,
+      "duration_s": 12.0,
+      "completed": 3858,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 296.8698680334959,
+      "latency_ms": {
+        "p50": 65.64856299519306,
+        "p95": 113.78698690168675,
+        "p99": 1137.5740108298485,
+        "mean": 101.89787663980292
+      },
+      "client_rss_gb": 0.036266326904296875,
+      "server": {
+        "worker": 0,
+        "pid": 1094064,
+        "rss_gb": 2.394214630126953,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "partitioned",
+            "partitions_probed": 16,
+            "partition_loads": 0,
+            "n_partitions": 256,
+            "nprobe": 16
+          }
+        }
+      }
+    }
+  ]
+}

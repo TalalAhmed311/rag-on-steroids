@@ -1,0 +1,128 @@
+{
+  "best": {
+    "concurrency": 16,
+    "duration_s": 12.0,
+    "completed": 19550,
+    "errors": 0,
+    "error_rate": 0.0,
+    "achieved_qps": 1507.216205562694,
+    "latency_ms": {
+      "p50": 4.228597492328845,
+      "p95": 5.958585498592583,
+      "p99": 7.250375752191753,
+      "mean": 10.018800582368726
+    },
+    "client_rss_gb": 0.036853790283203125,
+    "server": {
+      "worker": 0,
+      "pid": 481220,
+      "rss_gb": 1.7607192993164062,
+      "cpu_pct": 0.0,
+      "engine": {
+        "dense": {
+          "index": "hnsw",
+          "n": 1000000,
+          "dim": 384,
+          "M": 16,
+          "ef_search": 64,
+          "ef_construction": 200
+        }
+      }
+    }
+  },
+  "history": [
+    {
+      "concurrency": 8,
+      "duration_s": 12.0,
+      "completed": 19597,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 1622.3437244065578,
+      "latency_ms": {
+        "p50": 4.047104011988267,
+        "p95": 5.655868406756781,
+        "p99": 6.515159627888354,
+        "mean": 4.853138157458562
+      },
+      "client_rss_gb": 0.03606414794921875,
+      "server": {
+        "worker": 0,
+        "pid": 481220,
+        "rss_gb": 1.760711669921875,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 16,
+      "duration_s": 12.0,
+      "completed": 19550,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 1507.216205562694,
+      "latency_ms": {
+        "p50": 4.228597492328845,
+        "p95": 5.958585498592583,
+        "p99": 7.250375752191753,
+        "mean": 10.018800582368726
+      },
+      "client_rss_gb": 0.036853790283203125,
+      "server": {
+        "worker": 0,
+        "pid": 481220,
+        "rss_gb": 1.7607192993164062,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 32,
+      "duration_s": 12.0,
+      "completed": 19683,
+      "errors": 14,
+      "error_rate": 0.0007107681372797889,
+      "achieved_qps": 1509.5433334999095,
+      "latency_ms": {
+        "p50": 4.337413993198425,
+        "p95": 6.183491801493801,
+        "p99": 1032.479065714288,
+        "mean": 20.045504256168442
+      },
+      "client_rss_gb": 0.037891387939453125,
+      "server": {
+        "worker": 0,
+        "pid": 481220,
+        "rss_gb": 1.7608261108398438,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          }
+        }
+      }
+    }
+  ]
+}

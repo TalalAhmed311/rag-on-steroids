@@ -1,0 +1,190 @@
+{
+  "best": {
+    "concurrency": 64,
+    "duration_s": 12.0,
+    "completed": 25707,
+    "errors": 0,
+    "error_rate": 0.0,
+    "achieved_qps": 2138.4038456889257,
+    "latency_ms": {
+      "p50": 28.068533996702172,
+      "p95": 53.48294210270977,
+      "p99": 66.2886117430753,
+      "mean": 29.636844435721624
+    },
+    "client_rss_gb": 0.0398406982421875,
+    "server": {
+      "worker": 3,
+      "pid": 907188,
+      "rss_gb": 1.7588081359863281,
+      "cpu_pct": 0.0,
+      "engine": {
+        "dense": {
+          "index": "hnsw",
+          "n": 1000000,
+          "dim": 384,
+          "M": 16,
+          "ef_search": 64,
+          "ef_construction": 200
+        }
+      }
+    }
+  },
+  "history": [
+    {
+      "concurrency": 8,
+      "duration_s": 12.0,
+      "completed": 27593,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 2298.8339612548016,
+      "latency_ms": {
+        "p50": 3.273975002230145,
+        "p95": 5.593219998991117,
+        "p99": 6.829024397884486,
+        "mean": 3.4285105750835534
+      },
+      "client_rss_gb": 0.0362091064453125,
+      "server": {
+        "worker": 4,
+        "pid": 907196,
+        "rss_gb": 1.7586708068847656,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 16,
+      "duration_s": 12.0,
+      "completed": 27282,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 2272.4621423231447,
+      "latency_ms": {
+        "p50": 6.682245497358963,
+        "p95": 11.576306199276585,
+        "p99": 14.244383634650138,
+        "mean": 6.9841065539969405
+      },
+      "client_rss_gb": 0.03708648681640625,
+      "server": {
+        "worker": 1,
+        "pid": 907175,
+        "rss_gb": 1.7586593627929688,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 32,
+      "duration_s": 12.0,
+      "completed": 26908,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 2240.817080432012,
+      "latency_ms": {
+        "p50": 13.51192099537002,
+        "p95": 24.60417014735867,
+        "p99": 30.726776131195958,
+        "mean": 14.193567597177996
+      },
+      "client_rss_gb": 0.03795623779296875,
+      "server": {
+        "worker": 3,
+        "pid": 907188,
+        "rss_gb": 1.7587623596191406,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 64,
+      "duration_s": 12.0,
+      "completed": 25707,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 2138.4038456889257,
+      "latency_ms": {
+        "p50": 28.068533996702172,
+        "p95": 53.48294210270977,
+        "p99": 66.2886117430753,
+        "mean": 29.636844435721624
+      },
+      "client_rss_gb": 0.0398406982421875,
+      "server": {
+        "worker": 3,
+        "pid": 907188,
+        "rss_gb": 1.7588081359863281,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          }
+        }
+      }
+    },
+    {
+      "concurrency": 96,
+      "duration_s": 12.0,
+      "completed": 25444,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 2115.340612093337,
+      "latency_ms": {
+        "p50": 42.272378494089935,
+        "p95": 81.8897012468369,
+        "p99": 101.55020157762917,
+        "mean": 44.60904267661489
+      },
+      "client_rss_gb": 0.0413665771484375,
+      "server": {
+        "worker": 4,
+        "pid": 907196,
+        "rss_gb": 1.7589912414550781,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          }
+        }
+      }
+    }
+  ]
+}

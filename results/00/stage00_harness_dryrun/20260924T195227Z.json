@@ -1,0 +1,62 @@
+{
+  "stage": "00",
+  "config_name": "stage00_harness_dryrun",
+  "config_hash": "4f544a755aa3d98e",
+  "git_commit": null,
+  "server": {
+    "name": "local",
+    "vcpu": null,
+    "ram_gb": null,
+    "disk": "NVMe",
+    "gpu": null
+  },
+  "memory_limit_gb": 24,
+  "dataset": {
+    "track": "Q",
+    "name": "msmarco_subset_1m",
+    "n_vectors": 1000000,
+    "dim": null
+  },
+  "workload": {
+    "type": "uniform",
+    "s": null,
+    "n_queries": 10000,
+    "seed": 42
+  },
+  "run_mode": "warm",
+  "repeat": 1,
+  "accuracy": {
+    "recall@1": null,
+    "recall@10": null,
+    "recall@100": null,
+    "precision@10": null,
+    "mrr@10": null,
+    "ndcg@10": null
+  },
+  "latency_ms": {
+    "p50": null,
+    "p95": null,
+    "p99": null,
+    "mean": null
+  },
+  "throughput": {
+    "max_sustainable_qps": null,
+    "slo_p99_ms": 100
+  },
+  "resources": {
+    "peak_rss_gb": null,
+    "avg_cpu_pct": null,
+    "disk_reads_per_query": null,
+    "disk_read_mb_per_query": null,
+    "disk_iops_peak": null
+  },
+  "engine_stats": {},
+  "index": {
+    "build_time_s": null,
+    "ram_size_gb": null,
+    "disk_size_gb": null
+  },
+  "status": "dry_run",
+  "error": "dry-run only; pipeline/embeddings not executed",
+  "timestamp": "20260924T195227Z"
+}

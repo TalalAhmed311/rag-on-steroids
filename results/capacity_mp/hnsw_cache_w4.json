@@ -1,0 +1,41 @@
+{
+  "best": null,
+  "history": [
+    {
+      "concurrency": 8,
+      "duration_s": 12.0,
+      "completed": 4654,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 385.93364045047826,
+      "latency_ms": {
+        "p50": 10.98899149656063,
+        "p95": 69.2609128935146,
+        "p99": 116.39581586408899,
+        "mean": 20.615330401362122
+      },
+      "client_rss_gb": 0.035182952880859375,
+      "server": {
+        "worker": 0,
+        "pid": 1173644,
+        "rss_gb": 1.8118438720703125,
+        "cpu_pct": 0.0,
+        "engine": {
+          "dense": {
+            "index": "hnsw",
+            "n": 1000000,
+            "dim": 384,
+            "M": 16,
+            "ef_search": 64,
+            "ef_construction": 200
+          },
+          "result_cache_hit_rate": 0.7340695148443157,
+          "result_cache_entries": 1469,
+          "semantic_cache_hit_rate": 0.0,
+          "semantic_cache_entries": 1469,
+          "threshold": 0.98
+        }
+      }
+    }
+  ]
+}

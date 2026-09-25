@@ -1,0 +1,60 @@
+{
+  "stage": "01",
+  "config_name": "stage01_hnsw",
+  "config_hash": "884fa5b9a3c50a1f",
+  "git_commit": null,
+  "server": {},
+  "memory_limit_gb": 24,
+  "dataset": {
+    "track": "Q",
+    "name": "msmarco_subset_1m",
+    "n_vectors": 1000000,
+    "dim": 384
+  },
+  "workload": {
+    "file": "data/workloads/msmarco_dev/uniform.npy",
+    "n_queries": 1000
+  },
+  "run_mode": "warm",
+  "repeat": 1,
+  "accuracy": {
+    "recall@1": 0.974,
+    "recall@10": 0.9561000000000001,
+    "recall@100": 0.8858199999999999,
+    "precision@10": 0.0895,
+    "mrr@10": 0.6120115079365079,
+    "ndcg@10": 0.6668285786336501,
+    "recall@100_qrels": 0.9450833333333334
+  },
+  "latency_ms": {
+    "p50": 0.5805014880024828,
+    "p95": 1.411185545293847,
+    "p99": 1.5545186008966994,
+    "mean": 0.6894910320552299
+  },
+  "throughput": {
+    "max_sustainable_qps": null,
+    "slo_p99_ms": 100
+  },
+  "resources": {
+    "peak_rss_gb": 1.7977,
+    "avg_cpu_pct": 99.7,
+    "disk_reads_delta": 0,
+    "disk_read_mb_delta": 0.0,
+    "n_samples": 1
+  },
+  "engine_stats": {
+    "dense": {
+      "index": "hnsw",
+      "n": 1000000,
+      "dim": 384,
+      "M": 16,
+      "ef_search": 64,
+      "ef_construction": 200
+    }
+  },
+  "index": {},
+  "status": "ok",
+  "error": null,
+  "timestamp": "20260925T161725Z"
+}

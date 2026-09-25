@@ -1,0 +1,60 @@
+{
+  "stage": "08",
+  "config_name": "stage08_hybrid_rrf",
+  "config_hash": "2172260b7e5f4975",
+  "git_commit": null,
+  "server": {},
+  "memory_limit_gb": 24,
+  "dataset": {},
+  "workload": {
+    "file": "data/workloads/msmarco_dev/uniform.npy",
+    "n_queries": 200
+  },
+  "run_mode": "warm",
+  "repeat": 1,
+  "accuracy": {
+    "recall@1": 0.49,
+    "recall@10": 0.49700000000000005,
+    "recall@100": 0.6002,
+    "precision@10": 0.087,
+    "mrr@10": 0.5852103174603174,
+    "ndcg@10": 0.6408749430264791,
+    "recall@100_qrels": 0.985
+  },
+  "latency_ms": {
+    "p50": 1851.6555940004764,
+    "p95": 3623.52784275281,
+    "p99": 4515.841176759411,
+    "mean": 2004.1973147948738
+  },
+  "throughput": {
+    "max_sustainable_qps": null,
+    "slo_p99_ms": 100
+  },
+  "resources": {
+    "peak_rss_gb": 8.3225,
+    "avg_cpu_pct": 100.04,
+    "disk_reads_delta": 0,
+    "disk_read_mb_delta": 0.0,
+    "n_samples": 755
+  },
+  "engine_stats": {
+    "dense": {
+      "index": "hnsw",
+      "n": 1000000,
+      "dim": 384,
+      "M": 16,
+      "ef_search": 64,
+      "ef_construction": 200
+    },
+    "sparse": {
+      "index": "bm25",
+      "n": 1000000,
+      "backend": "rank_bm25"
+    }
+  },
+  "index": {},
+  "status": "ok",
+  "error": null,
+  "timestamp": "20260925T162802Z"
+}

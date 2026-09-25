@@ -1,0 +1,54 @@
+{
+  "stage": "04",
+  "config_name": "stage04_partitioned",
+  "config_hash": "45bba2f450d9f37e",
+  "git_commit": null,
+  "server": {},
+  "memory_limit_gb": 24,
+  "dataset": {},
+  "workload": {
+    "file": "data/workloads/msmarco_dev/uniform.npy",
+    "n_queries": 1000
+  },
+  "run_mode": "warm",
+  "repeat": 1,
+  "accuracy": {
+    "recall@1": 0.889,
+    "recall@10": 0.8563000000000001,
+    "recall@100": 0.82463,
+    "precision@10": 0.081,
+    "mrr@10": 0.5550464285714286,
+    "ndcg@10": 0.6030073914005839,
+    "recall@100_qrels": 0.8470833333333334
+  },
+  "latency_ms": {
+    "p50": 4.774910499691032,
+    "p95": 5.359145200054627,
+    "p99": 11.2840949765814,
+    "mean": 4.802349883146235
+  },
+  "throughput": {
+    "max_sustainable_qps": null,
+    "slo_p99_ms": 100
+  },
+  "resources": {
+    "peak_rss_gb": 2.4113,
+    "avg_cpu_pct": 100.09,
+    "disk_reads_delta": 0,
+    "disk_read_mb_delta": 0.0,
+    "n_samples": 9
+  },
+  "engine_stats": {
+    "dense": {
+      "index": "partitioned",
+      "partitions_probed": 8,
+      "partition_loads": 0,
+      "n_partitions": 256,
+      "nprobe": 8
+    }
+  },
+  "index": {},
+  "status": "ok",
+  "error": null,
+  "timestamp": "20260925T161908Z"
+}

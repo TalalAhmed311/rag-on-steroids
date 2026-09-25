@@ -1,0 +1,17 @@
+name: stage08_hybrid_rrf
+stage: "08"
+track: Q
+dense:
+  index: hnsw
+  metric: ip
+  vectors_path: data/msmarco/subset_1m/embeddings/passages.f32.npy
+  index_path: data/indexes/stage01_hnsw/hnsw.bin
+  hnsw: {M: 16, ef_construction: 200, ef_search: 64, space: ip}
+sparse:
+  corpus_path: data/msmarco/subset_1m/corpus.parquet
+fusion: {type: rrf, k: 60}
+rerank: null
+cache: null
+candidate_k: 100
+memory_limit_gb: 24
+slo_p99_ms: 100

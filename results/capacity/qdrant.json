@@ -1,0 +1,80 @@
+{
+  "best": {
+    "concurrency": 8,
+    "duration_s": 15.0,
+    "completed": 6049,
+    "errors": 0,
+    "error_rate": 0.0,
+    "achieved_qps": 402.945326489354,
+    "latency_ms": {
+      "p50": 19.080985002801754,
+      "p95": 28.23189439659472,
+      "p99": 33.52981480013112,
+      "mean": 19.78182898034933
+    },
+    "client_rss_gb": 0.03537750244140625,
+    "server": {
+      "collection": "msmarco_1m",
+      "points": 1000000
+    }
+  },
+  "history": [
+    {
+      "concurrency": 4,
+      "duration_s": 15.0,
+      "completed": 6128,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 408.39767801483225,
+      "latency_ms": {
+        "p50": 9.500788000877947,
+        "p95": 13.603767198219428,
+        "p99": 15.873465735785414,
+        "mean": 9.731755820760675
+      },
+      "client_rss_gb": 0.0350799560546875,
+      "server": {
+        "collection": "msmarco_1m",
+        "points": 1000000
+      }
+    },
+    {
+      "concurrency": 8,
+      "duration_s": 15.0,
+      "completed": 6049,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 402.945326489354,
+      "latency_ms": {
+        "p50": 19.080985002801754,
+        "p95": 28.23189439659472,
+        "p99": 33.52981480013112,
+        "mean": 19.78182898034933
+      },
+      "client_rss_gb": 0.03537750244140625,
+      "server": {
+        "collection": "msmarco_1m",
+        "points": 1000000
+      }
+    },
+    {
+      "concurrency": 16,
+      "duration_s": 15.0,
+      "completed": 5632,
+      "errors": 1,
+      "error_rate": 0.00017752529735487306,
+      "achieved_qps": 359.1992323805676,
+      "latency_ms": {
+        "p50": 23.43706600368023,
+        "p95": 37.82676600094419,
+        "p99": 1060.0299388420535,
+        "mean": 43.02481063413809
+      },
+      "client_rss_gb": 0.035739898681640625,
+      "server": {
+        "collection": "msmarco_1m",
+        "points": 1000000
+      }
+    }
+  ]
+}

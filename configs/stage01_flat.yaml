@@ -1,0 +1,19 @@
+name: stage01_flat
+stage: "01"
+track: Q
+dataset:
+  track: Q
+  name: msmarco_subset_1m
+  n_vectors: 1000000
+  dim: 384
+dense:
+  index: flat
+  metric: ip
+  vectors_path: data/msmarco/subset_1m/embeddings/passages.f32.npy
+sparse: null
+fusion: null
+rerank: null
+cache: null
+candidate_k: 100
+memory_limit_gb: 24
+slo_p99_ms: 100
