@@ -1,0 +1,89 @@
+{
+  "best": {
+    "concurrency": 96,
+    "duration_s": 15,
+    "completed": 24685,
+    "errors": 0,
+    "error_rate": 0,
+    "achieved_qps": 1640.1703761333085,
+    "p50_ms": 57.987,
+    "p95_ms": 81.496,
+    "p99_ms": 96.611,
+    "mean_ms": 58.411466315576114
+  },
+  "history": [
+    {
+      "concurrency": 8,
+      "duration_s": 15,
+      "completed": 19355,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1289.9363401174176,
+      "p50_ms": 5.746,
+      "p95_ms": 10.601,
+      "p99_ms": 14.204,
+      "mean_ms": 6.167686850942909
+    },
+    {
+      "concurrency": 16,
+      "duration_s": 15,
+      "completed": 21166,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1410.267614677261,
+      "p50_ms": 10.779,
+      "p95_ms": 18.461,
+      "p99_ms": 23.195,
+      "mean_ms": 11.297752102428475
+    },
+    {
+      "concurrency": 32,
+      "duration_s": 15,
+      "completed": 23170,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1543.4589250807912,
+      "p50_ms": 20.168,
+      "p95_ms": 31.679,
+      "p99_ms": 38.317,
+      "mean_ms": 20.6673247302546
+    },
+    {
+      "concurrency": 64,
+      "duration_s": 15,
+      "completed": 24313,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1617.1179984824178,
+      "p50_ms": 39.216,
+      "p95_ms": 57.086,
+      "p99_ms": 65.846,
+      "mean_ms": 39.46501139308162
+    },
+    {
+      "concurrency": 96,
+      "duration_s": 15,
+      "completed": 24685,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1640.1703761333085,
+      "p50_ms": 57.987,
+      "p95_ms": 81.496,
+      "p99_ms": 96.611,
+      "mean_ms": 58.411466315576114
+    },
+    {
+      "concurrency": 128,
+      "duration_s": 15,
+      "completed": 24797,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1645.2491788361108,
+      "p50_ms": 77.209,
+      "p95_ms": 105.884,
+      "p99_ms": 126.025,
+      "mean_ms": 77.57567617050425
+    }
+  ],
+  "slo_p99_ms": 100
+}

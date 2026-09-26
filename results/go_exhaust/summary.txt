@@ -1,0 +1,11 @@
+config                         peak_qps      c      p99      p50
+w4_ef32_ram.json                 1791.8    512    483.0    277.3
+w8_ef32_ram.json                 1776.3    512    520.7    279.7
+w1_ef64_disk.json                1713.2    256    226.4    148.4
+w4_ef64_disk.json                1653.6    256    236.9    152.2
+w1_ef64_ram.json                 1229.1    384    494.4    305.1
+w4_ef64_ram.json                 1210.1    512    667.4    411.4
+w2_ef64_ram.json                 1208.2    384    519.2    309.3
+w8_ef64_ram.json                 1194.1    512    670.2    419.0
+
+BEST: w4_ef32_ram.json 1792 QPS

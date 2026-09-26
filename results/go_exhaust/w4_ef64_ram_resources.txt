@@ -1,0 +1,10 @@
+tag=w4_ef64_ram workers=4
+    PID   RSS %CPU CMD
+1329917 50980 10.4 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1329918 50984 11.7 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1329919 52172 14.1 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1329920 51772 11.0 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+6372bd34e240   qdrant    0.26%     565.5MiB / 31.34GiB   1.76%     2.92GB / 252MB   5.71MB / 5.24GB   141
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.5Gi       9.6Gi        70Mi        20Gi        29Gi

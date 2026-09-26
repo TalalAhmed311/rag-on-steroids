@@ -1,0 +1,2 @@
+    PID   RSS CMD
+1315487 53356 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64

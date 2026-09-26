@@ -1,0 +1,30 @@
+{
+  "best": null,
+  "history": [
+    {
+      "concurrency": 8,
+      "duration_s": 10.0,
+      "completed": 3421,
+      "errors": 0,
+      "error_rate": 0.0,
+      "achieved_qps": 341.86969075246094,
+      "latency_ms": {
+        "p50": 6.826573997386731,
+        "p95": 62.23053099529352,
+        "p99": 523.1680640048585,
+        "mean": 23.33058586824757
+      },
+      "client_rss_gb": 0.035121917724609375,
+      "server": {
+        "collection": "msmarco_1m",
+        "dim": 384,
+        "errors": 0,
+        "goroutines": 8,
+        "heap_alloc_mb": 14.983024597167969,
+        "n_queries": 6980,
+        "requests": 3493,
+        "sys_mb": 32.70997619628906
+      }
+    }
+  ]
+}

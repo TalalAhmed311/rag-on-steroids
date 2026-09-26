@@ -1,0 +1,113 @@
+{
+  "best": {
+    "concurrency": 256,
+    "duration_s": 12,
+    "completed": 19924,
+    "errors": 0,
+    "error_rate": 0,
+    "achieved_qps": 1640.9898082330085,
+    "p50_ms": 152.676,
+    "p95_ms": 214.406,
+    "p99_ms": 257.15,
+    "mean_ms": 155.0387876932339
+  },
+  "history": [
+    {
+      "concurrency": 8,
+      "duration_s": 12,
+      "completed": 15314,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1275.6201443303985,
+      "p50_ms": 5.815,
+      "p95_ms": 10.901,
+      "p99_ms": 14.462,
+      "mean_ms": 6.240025989290844
+    },
+    {
+      "concurrency": 16,
+      "duration_s": 12,
+      "completed": 16915,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1409.0083760759912,
+      "p50_ms": 10.761,
+      "p95_ms": 18.464,
+      "p99_ms": 22.982,
+      "mean_ms": 11.314105409399955
+    },
+    {
+      "concurrency": 32,
+      "duration_s": 12,
+      "completed": 18652,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1551.8259967308386,
+      "p50_ms": 20.109,
+      "p95_ms": 30.974,
+      "p99_ms": 37.51,
+      "mean_ms": 20.554898241475428
+    },
+    {
+      "concurrency": 64,
+      "duration_s": 12,
+      "completed": 19531,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1622.548067880382,
+      "p50_ms": 39.12,
+      "p95_ms": 56.327,
+      "p99_ms": 64.838,
+      "mean_ms": 39.345286467667094
+    },
+    {
+      "concurrency": 96,
+      "duration_s": 12,
+      "completed": 19688,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1632.8774058706158,
+      "p50_ms": 58.21,
+      "p95_ms": 83.469,
+      "p99_ms": 99.201,
+      "mean_ms": 58.61140755790308
+    },
+    {
+      "concurrency": 128,
+      "duration_s": 12,
+      "completed": 19734,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1635.0753321772675,
+      "p50_ms": 77.141,
+      "p95_ms": 106.071,
+      "p99_ms": 124.54,
+      "mean_ms": 78.01063301915495
+    },
+    {
+      "concurrency": 192,
+      "duration_s": 12,
+      "completed": 19971,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1650.5540922236783,
+      "p50_ms": 115.251,
+      "p95_ms": 151.077,
+      "p99_ms": 177.001,
+      "mean_ms": 115.76962630814678
+    },
+    {
+      "concurrency": 256,
+      "duration_s": 12,
+      "completed": 19924,
+      "errors": 0,
+      "error_rate": 0,
+      "achieved_qps": 1640.9898082330085,
+      "p50_ms": 152.676,
+      "p95_ms": 214.406,
+      "p99_ms": 257.15,
+      "mean_ms": 155.0387876932339
+    }
+  ],
+  "slo_p99_ms": 99999
+}

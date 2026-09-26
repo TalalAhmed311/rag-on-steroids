@@ -1,0 +1,14 @@
+tag=w8_ef64_ram workers=8
+    PID   RSS %CPU CMD
+1330818 46832  8.8 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1330819 46076  6.8 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1330820 46020  7.3 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1330821 46952  4.7 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1330822 47284  5.2 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1330823 46788  5.5 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1330824 47176  7.4 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+1330825 47000  5.6 /home/ec2-user/rag-on-steroids/go/bin/searchd --addr :8080 --reuseport --qdrant-host 127.0.0.1 --qdrant-port 6334 --collection msmarco_1m_ram --query-vectors /home/ec2-user/rag-on-steroids/data/msmarco/subset_1m/embeddings/queries.f32.npy --ef 64
+CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS
+6372bd34e240   qdrant    0.13%     565.2MiB / 31.34GiB   1.76%     3.15GB / 298MB   5.71MB / 5.24GB   141
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       1.6Gi       9.5Gi        70Mi        20Gi        29Gi
